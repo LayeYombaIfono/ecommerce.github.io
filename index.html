@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ma boutique</title>
+    <!--Lien bootstrap avec le fichier css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body class="bg-green">
+<!---Debut du menu de  navigation-->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white" href="#">ECOMM-SHOP</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="#">Accueil</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Boutique
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Electronique</a></li>
+            <li><a class="dropdown-item" href="#">Electro-Menager</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white">Inscription</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white">Connexion</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+        <button class="btn btn-outline-danger" type="submit">Cherche</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!---Fin du menu de  navigation-->
+
+<!---Debut carausel-->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/img2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/img1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/img3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+<!---Fin carausel-->
+<hr>
+<!---Debut card-->
+<div class="card bg-dark text-white" >
+  <div class="card-body bg-danger w-75 text-center" style="margin: auto;">
+    <h1 class="fs-2 fw-bold font-poppins">Ecomm-shop site de vente à Conakry</h1>
+    <p class="fs-4">Tout à commencé dans une idée simple, créer des sites à couper le souffle moi même avec bootstrap</p>
+    <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+</div>
+<!---Fin card-->
+<!--Menu des article-->
+<div class="container-fluid">
+  <div class="row row-cols-1 row-cols-md-3 g-4" style="margin-top:20px;">
+    <div class="col">
+      <div class="card h-100">
+        <img src="images\img\product01.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title text-center">Catégorie</h3>
+          <p class="card-text fs-5 text-center">Ordinateur portable ChromeBook.</p>
+          <p class="card-text text-danger text-center">Prix: 5 000 000FG.</p>
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-block btn-primary w-100">Achetez Maintenant</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="images\img\product02.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title text-center">Catégorie</h3>
+          <p class="card-text fs-5 text-center">Casque.</p>
+          <p class="card-text text-danger text-center">Prix: 80 000FG.</p>
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-block btn-primary w-100">Achetez Maintenant</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="images\img\product03.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title text-center">Catégorie</h3>
+          <p class="card-text fs-5 text-center">Ordinateur portable.</p>
+          <p class="card-text text-danger text-center">Prix: 6 000 000FG.</p>
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-block btn-primary w-100">Achetez Maintenant</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin du premier bloc -->
+<br>
+<div class="card">
+  <h2 class="text-center text-primary">Nos meilleurs produits</h2>
+</div>
+<!-- Debut 2ème bloc -->
+<div class="container-fluid">
+  <div class="row row-cols-1 row-cols-md-3 g-4" style="margin-top:20px;">
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="images\img\product04.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title text-center">Catégorie</h3>
+          <p class="card-text fs-5 text-center">Tablette.</p>
+          <p class="card-text text-danger text-center">Prix: 2 000 000FG.</p>
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-block btn-primary w-100">Achetez Maintenant</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="images\img\product05.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title text-center">Catégorie</h3>
+          <p class="card-text fs-5 text-center">Casque.</p>
+          <p class="card-text text-danger text-center">Prix: 70 000FG.</p>
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-block btn-primary w-100">Achetez Maintenant</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="images\img\product06.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title text-center">Catégorie</h3>
+          <p class="card-text fs-5 text-center">Ordinateur portable.</p>
+          <p class="card-text text-danger text-center">Prix: 4 500 000FG.</p>
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-block btn-primary w-100">Achetez Maintenant</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="images\img\product07.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title text-center">Catégorie</h3>
+          <p class="card-text fs-5 text-center">Samsum.</p>
+          <p class="card-text text-danger text-center">Prix: 4 500 000FG.</p>
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-block btn-primary w-100">Achetez Maintenant</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- Fin du 2ème bloc -->
+<!-- Debut du 3ème bloc -->
+<div class="container-fluid">
+  <div class="row row-cols-1 row-cols-md-3 g-4" style="margin-top:20px;">
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="images\img\product04.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title text-center">Catégorie</h3>
+          <p class="card-text fs-5 text-center">Tablette.</p>
+          <p class="card-text text-danger text-center">Prix: 2 000 000FG.</p>
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-block btn-primary w-100">Achetez Maintenant</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="images\img\product05.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title text-center">Catégorie</h3>
+          <p class="card-text fs-5 text-center">Casque.</p>
+          <p class="card-text text-danger text-center">Prix: 70 000FG.</p>
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-block btn-primary w-100">Achetez Maintenant</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="images\img\product06.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title text-center">Catégorie</h3>
+          <p class="card-text fs-5 text-center">Ordinateur portable.</p>
+          <p class="card-text text-danger text-center">Prix: 4 500 000FG.</p>
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-block btn-primary w-100">Achetez Maintenant</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="images\img\product07.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title text-center">Catégorie</h3>
+          <p class="card-text fs-5 text-center">Samsum.</p>
+          <p class="card-text text-danger text-center">Prix: 4 500 000FG.</p>
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-block btn-primary w-100">Achetez Maintenant</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- Fin du 3ème bloc -->
+    <!-- debut section des temoignages  -->
+    <section>
+      <hr>
+      <div class="card">
+        <h2 class="text-center text-danger">TEMOIGNAGES DE NOS CLIENTS</h2>
+      </div>
+      <!-- Témoignages -->
+      <div class="card mb-3" style="max-width: 100%;">
+        <div class="row g-0">
+          <div class="col-md-6">
+                        <!---Debut carausel-->
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/img/blog-4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/img/blog-6.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/img/blog-7.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+            <!---Fin carausel-->
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h4 class="card-title text-center text-primary">JUSTINE</h4>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. A quisquam, velit doloremque nesciunt expedita esse praesentium, veritatis optio dolores tenetur culpa ducimus dignissimos deserunt mollitia tempore deleniti aperiam, minus fuga!
+              </p>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. A quisquam, velit doloremque nesciunt expedita esse praesentium, veritatis optio dolores tenetur culpa ducimus dignissimos deserunt mollitia tempore deleniti aperiam, minus fuga!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fin section des temoignages  -->
+    <br><hr>
+    <!-- Debut Pied de page -->
+  <footer class="container-fluid bg-dark">
+    <br>
+    <div class="row">
+      <div class="col text-white">
+        <h3>A propos</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sed consectetur, iure maxime exercitationem, perspiciatis alias ut adipisci corporis similique deserunt. Iste quam sit quia id ratione dignissimos minima voluptatibus!</p>
+      </div>
+      <div class="col text-white">
+        <h4>Cotégorie</h4>
+        <a href="#">C</a><br>
+        <a href="#">Java</a><br>
+        <a href="#">JavaScript</a><br>
+        <a href="#">Python</a><br>
+        <a href="#">Php</a><br>
+        <a href="#">Android</a><br>
+        <a href="#">Templates</a><br>
+      </div>
+      <div class="col text-white">
+        <h4>Services</h4>
+        <p>E-commerce</p>
+        <p>Formations</p>
+        <p>Reparation</p>
+        <p>Electroniques</p>
+        <p>Electromenagers</p>
+        <p>Multi-Services</p>
+      </div>
+      <div class="col text-white">
+       <p>E-mail: ecommercegn@gmail.com</p>
+       <p>Phone: +224 656 47 12 00</p>
+       <p>Adresse: Ratoma-Guinée Conakry</p>
+      </div>
+    </div>
+    <hr>
+      <h4 class="text-center text-white">Créer & Designer par- Laye Yomba IFONO</h4>
+    
+  </footer>
+  <!-- Fin Pied de page -->
+  </body>
+</html>
